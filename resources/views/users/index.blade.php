@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Users</title>
 </head>
 <body>
-@foreach($users as $user)
 <ul>
-    <li>{{ $user->name }}</li>
-    <li> {{ $user->email  }} </li>
+    @foreach($users as $user)
+        <li>{{ $user->name }} - {{ $user->email }}</li>
+    @endforeach
 </ul>
-@endforeach
 </body>
 </html>
