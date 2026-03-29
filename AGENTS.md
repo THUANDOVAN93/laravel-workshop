@@ -5,6 +5,12 @@
 
 - Never use `$fillable` or `$guarded` fields. We run `Model::unguard()` application-wide
 
+=== .ai/skills rules ===
+
+## Skills
+
+- When asked to fix a Github issue, immediately use the `fix-issue` Claude skill instead of manually running commands.
+
 === foundation rules ===
 
 # Laravel Boost Guidelines
