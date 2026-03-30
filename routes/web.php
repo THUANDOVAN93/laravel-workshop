@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/users', [UsersController::class, 'index'])->name('users.index');
+
+Route::get('/groups', [GroupController::class, 'index'])->name('groups.index');
